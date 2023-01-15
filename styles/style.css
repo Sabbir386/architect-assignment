@@ -8,7 +8,6 @@
 body {
     font-family: var(--primary-font);
 }
-
 .header-contains {
     padding-top: 50px;
     background-color: var(--primary-background-color);
@@ -41,7 +40,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
     max-width: 1450px;
     height: 55px;
     margin: 0px auto;
@@ -56,7 +55,7 @@ nav>ul {
 
 /* header styling */
 .header {
-    width: 100%;
+    width: 80%;
     max-width: 865px;
     height: 225px;
     display: flex;
@@ -97,11 +96,11 @@ nav>ul {
     height: 750px;
     width: 100%;
     max-width: 1440px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .banner {
-    width: 100%;
+    width: 80%;
     max-width: 1450px;
     margin: 0px auto;
     margin-top: 240px;
@@ -150,7 +149,7 @@ nav>ul {
 }
 
 .services {
-    width: 50%;
+    width: 100%;
     max-width: 537px;
     height: 304px;
     width: 537px;
@@ -158,7 +157,7 @@ nav>ul {
 }
 
 .image-section {
-    width: 50%;
+    width: 100%;
     max-width: 710px;
     max-height: 710px;
 }
@@ -167,39 +166,45 @@ nav>ul {
     display: flex;
     align-items: center;
     gap: 75px;
-    width: 100%;
+    width: 80%;
     max-width: 1450px;
     margin: 0 auto;
     margin-top: 130px;
 }
 
 /*....... feautures- stylings............ */
-.virtical-line {
+.verticale-line {
     border-left: 5px solid #FF900E;
     height: 106px;
     padding-left: 26px;
 }
-
-.features {
-    display: flex;
-    column-gap: 15px;
-    width: 100%;
-    max-width: 1450px;
-    margin: 0 auto;
-    margin-top: 120px;
-
-}
-
-.our-features,
-.stylish-image {
-    padding-top: 40px;
-    width: 50%;
-}
-
 .vertical-pear-sameline {
     display: flex;
     padding-top: 40px;
 }
+
+.feature-section{
+    display: flex;
+    grid-column-gap: 25px;
+}
+.one{
+    height: 586px;
+    width: 100%;
+}
+.stylish-girl-image img{
+    height:710px;
+  
+}
+.features {
+    width: 80%;
+    max-width: 1450px;
+    margin: 0 auto;
+    margin-top: 120px;
+
+} 
+
+
+
 
 .titles-feature {
     width: 468px;
@@ -233,18 +238,18 @@ nav>ul {
 .btn-secondary {
     background: #FF900E;
     border-radius: 8px;
-    width: 342px;
+    width: 250px;
     height: 200px;
     margin-top: -200px;
-    margin-left: -90px;
+    margin-left: -20px;
 
 }
 
 .btn-secondary>span {
-    font-size: 65px;
-    width: 258px;
-    height: 109px;
-}
+    font-size: 50px;
+    width: 230px;
+    height: 80px;
+} 
 
 /* Some facts styling */
 
@@ -282,7 +287,7 @@ h5 {
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     gap: 100px;
-    width: 100%;
+    width: 80%;
     max-width: 1450px;
     margin: 0px auto;
     margin-top: 240px;
@@ -310,7 +315,7 @@ h5 {
     align-items: center;
 }
 .sponsors{
-    width: 100%;
+    width: 80%;
     max-width: 1450px;
     margin: 0px auto;
     margin-top: 200px;
@@ -344,7 +349,7 @@ h5 {
     column-gap: 50px;
 }
 .extra-section{
-    width: 100%;
+    width:80%;
     max-width: 1450px;
     margin: 0px auto;
     margin-top: 240px;
@@ -364,7 +369,7 @@ h5 {
     align-items: center;
 }
 .footer{
-    width: 100%;
+    width: 80%;
     height: 110px;
     max-width: 1450px;
     margin: 0px auto;
