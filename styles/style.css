@@ -362,7 +362,7 @@ h5 {
     background: #D9D9D9;
 } 
 .footer-para{
-    padding-left:350px;
+    padding-left:200px;
 }
 .footer-section{
     display: flex;
@@ -374,6 +374,6 @@ h5 {
     max-width: 1450px;
     margin: 0px auto;
     margin-top: 240px;
-    background-color: var(--primary-background-color);
     margin-bottom: 150px;
+    background-color: var(--primary-background-color);
 }
