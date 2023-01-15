@@ -1,6 +1,8 @@
 :root {
     --primary-font: 'Work Sans', sans-serif;
     --primary-background-color: rgba(255, 144, 14, 0.1);
+    --primary-font-color: #131313;
+    --secondary-font-color: #727272;
 }
 
 body {
@@ -19,8 +21,12 @@ body {
 }
 
 /* nav styling */
+.title{
+    color:var(--primary-font-color);
+    font-weight: 700;
+    font-size: 45px;
+}
 nav>h1 {
-    color: #131313;
     font-weight: 700;
     font-size: 45px;
 }
@@ -61,9 +67,7 @@ nav>ul {
     text-align: center;
 }
 
-.header-title {
-    color: #131313;
-    font-weight: 700;
+.header-title{
     font-size: 64px;
     margin-top: 102px;
     margin-bottom: 32px;
@@ -119,10 +123,9 @@ nav>ul {
 
 }
 
-.span-of-our {
+.span-of-our{
     font-weight: 700;
     font-size: 45px;
-    color: #131313;
     width: 468px;
     height: 106px;
 }
@@ -179,6 +182,7 @@ nav>ul {
 
 .features {
     display: flex;
+    column-gap: 15px;
     width: 100%;
     max-width: 1450px;
     margin: 0 auto;
@@ -200,9 +204,7 @@ nav>ul {
 .titles-feature {
     width: 468px;
     height: 106px;
-    font-weight: 700;
     font-size: 45px;
-    color: #131313;
 }
 
 .we-do {
@@ -210,7 +212,6 @@ nav>ul {
     height: 23px;
     font-weight: 600;
     font-size: 20px;
-    color: #131313;
     padding-top: 10px;
 }
 
@@ -240,7 +241,6 @@ nav>ul {
 }
 
 .btn-secondary>span {
-    font-weight: 700;
     font-size: 65px;
     width: 258px;
     height: 109px;
@@ -270,10 +270,10 @@ h5 {
 }
 
 .fact-titles {
-    color: #131313;
     font-weight: 700;
     font-size: 40px;
     width: 258px;
+    margin-bottom: 25px;
 }
 
 .facts {
@@ -298,23 +298,33 @@ h5 {
 /* Sponsors section styling */
 .sponsors-titles{
     text-align: center;
-    color: #131313;
-    font-weight: 700;
-    font-size: 45px;
     height: 53px;
     margin-bottom:130px;
 
 }
 .sponsors-image{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
 .sponsors{
-    margin-top: 205px;
+    width: 100%;
+    max-width: 1450px;
+    margin: 0px auto;
+    margin-top: 200px;
 }
 /* footer section styling */
-.footer> p{
-    padding: 40px 410px;
+.box{
+    height: 110px;
+    width: 110px;
+    background: #D9D9D9;
+} 
+.footer-para{
+    padding-left:350px;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
 }
 .footer{
     width: 100%;
@@ -323,5 +333,39 @@ h5 {
     margin: 0px auto;
     margin-top: 240px;
     background-color: var(--primary-background-color);
+    margin-bottom: 150px;
+}
+/* Extra section  */
+.wrapping-up{
+    width: 50%;
+    padding-left: 50px;
+}
+.motivation{
+    width:50%;
+}
+.ben-keeppe{
+   border: 5px solid green;
+   border-radius: 1000px;
+   margin-bottom: 20px;
+}
+.ben-author{
+    color: indigo;
+    margin-bottom: 10px;
+
+}
+.inspiration{
+    padding-left:20px;
+}
+.extra-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+.extra-section{
+    width: 100%;
+    max-width: 1450px;
+    margin: 0px auto;
+    margin-top: 240px;
     margin-bottom: 150px;
 }
